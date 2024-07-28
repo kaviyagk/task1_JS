@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tasks</title>
+</head>
+<body>
+    <div>
+        <p>1.Print Hello World</p>
+        <h2></h2>
+    </div>
+    <hr>
+    <div>
+        <p> 2.Adding two numbers</p>
+        <label for="num1">Enter num1:</label>
+        <input type="number" id="num1"><br><br>
+        <label for="num2">Enter num2:</label>
+        <input type="number" id="num2">
+        <button onclick="addNumbers()">Add</button>
+        <p id="result1">Result:</p>
+    </div>
+    <hr>
+    <div>
+        <p>3. Printing the square root of a number</p>
+        <label for="numSqr">Enter a number:</label>
+        <input type="number" id="numSqr">
+        <button onclick="calculateSqrt()">Calculate</button>
+        <p id="result2">Result:</p>
+    </div>
+    <hr>
+    <div>
+        <p>4. Checking if the number is odd or even</p>
+        <label for="numEvenOdd">Enter a number:</label>
+        <input type="number" id="numEvenOdd">
+        <button onclick="checkEvenOdd()">Verify</button>
+        <p id="result3"></p>
+    </div>
+    <hr>
+    <div>
+        <p>5. Generating a random number</p>
+        <button onclick="generateRandomNumber()">Generate a random number</button>
+        <p id="result4"></p>
+    </div>
+    <hr>
+    <div>
+        <p>6. Printing the largest of three numbers</p>
+        <label for="numA">Enter num1:</label>
+        <input type="number" id="numA"><br><br>
+        <label for="numB">Enter num2:</label>
+        <input type="number" id="numB"><br><br>
+        <label for="numC">Enter num3:</label>
+        <input type="number" id="numC">
+        <button onclick="findLargest()">Find</button>
+        <p id="result5"></p>
+    </div>
+    <hr>
+    <div>
+        <p>7. Printing a name 20 times</p>
+        <label for="userName">Enter your name:</label>
+        <input type="text" id="userName">
+        <button onclick="printName()">Print</button>
+        <p id="result6"></p>
+    </div>
+    <hr>
+    <div>
+        <p>8. Checking if the last digits are the same</p>
+        <input type="number" id="numD" placeholder="Enter first number"><br><br>
+        <input type="number" id="numE" placeholder="Enter second number">
+        <button onclick="checkLastDigit()">Check</button>
+        <p id="result7"></p>
+    </div>
+    <hr>
+    <div>
+        <p>9. Replacing a character in a string</p>
+        <input type="text" id="stringInput" placeholder="Enter a string"><br><br>
+        <input type="text" id="oldCharacter" placeholder="Enter old character"><br><br>
+        <input type="text" id="newCharacter" placeholder="Enter new character">
+        <button onclick="replaceCharacter()">Replace</button>
+        <p id="result8"></p>
+    </div>
+    <hr>
+    <div>
+        <p>10. Appending two arrays</p>
+        <input type="text" id="array1" placeholder="Enter array1 (comma separated)"><br><br>
+        <input type="text" id="array2" placeholder="Enter array2 (comma separated)">
+        <button onclick="appendArrays()">Append</button>
+        <p id="result9"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
